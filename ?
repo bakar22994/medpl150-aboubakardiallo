@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Interactive Story Assignment</title>
+    <style>
+          body{
+            color: white;
+            font-family: "Garamond", sans-serif;
+
+            background-color: black;
+            background-image: url('rivaside.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+      </style>
+  </head>
+
+  <body>
+    <h1>Interactive Story Assignment</h1>
+      <br>
+      <h2><a href="isa-part1">Start</a></h2>
+      
+      <!--<img src="(insert picture here)" alt="(insert alt here)" width="600"> -->
+      
+    <br><br>
+
+    <a href="index.html">Back to Home</a>
+  </body>
+
+</html>
