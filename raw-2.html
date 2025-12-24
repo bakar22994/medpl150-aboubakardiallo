@@ -26,6 +26,17 @@
             clear: both;
             display: table;
           }
+
+          .outlined-text {
+          -webkit-text-stroke: 0.8px black; /* Older browsers */
+          text-stroke: 0.8px black;       /* Newer browsers */
+          color: white;                 /* Text fill color */
+          /* Or use multiple box-shadows for better corner blending */
+          }
+
+          p{
+            font-size: 30px;
+          }
       </style>
   </head>
 
@@ -44,7 +55,7 @@
       
     <br><br>
 
-    <p>
+    <p class="outlined text";>
       (test)
     </p>
 
