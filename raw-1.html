@@ -14,6 +14,18 @@
             background-attachment: fixed;
             background-size: cover;
           }
+          .column{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
       </style>
   </head>
 
@@ -21,10 +33,10 @@
     <h1>Camera Raw 1 - Pigeon (Left) vs. Raw Pigeon (Right)</h1>
       <div class="row">
         <div class="column">
-          <img src="pigeon.jpg" alt="Normal Pigeon" style="width:25%;height:auto;">
+          <img src="pigeon.jpg" alt="Normal Pigeon" style="width:40%;height:auto;">
         </div>
         <div class="column">
-          <img src="pigeon raw.jpg" alt="Raw Pigeon" style="width:25%;height:auto;">
+          <img src="pigeon raw.jpg" alt="Raw Pigeon" style="width:40%;height:auto;">
         </div>
       </div>
       
