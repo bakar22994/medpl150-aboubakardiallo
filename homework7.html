@@ -14,12 +14,37 @@
             background-attachment: fixed;
             background-size: cover;
           }
+          .column{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
       </style>
   </head>
 
   <body>
     <h1>Homework 7 - "Fortwo"</h1>
-    <img src="fortwo.png" alt="Homework 7 - "Fortwo"" width="600">
+    
+    <div class="row">
+        <div class="column">
+          <img src="fortwo.jpg" alt="Homework 7 - "Fortwo"" style="width:100%;height:auto;">
+        </div>
+        <div class="column">
+          <img src="fortwo original.jpg" alt="Fortwo (Original Image)" style="width:100%;height:auto;">
+        </div>
+      </div>
+    <br><br>
+
+    <p>
+      (test)
+    </p>
 
     <br><br>
 
